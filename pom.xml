@@ -3,4 +3,5 @@
   <groupId>HybridFrameworkSDET_QA</groupId>
   <artifactId>HybridFrameworkSDET_QA</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies></dependencies>
 </project>
