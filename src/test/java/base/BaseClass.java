@@ -37,7 +37,7 @@ public class BaseClass
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			// driver.get("https://demo.guru99.com/V1/index.php");
 		}
-
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(baseurl);
 	}
 
