@@ -9,6 +9,7 @@ public class LoginPage
 {
 	WebDriver ldriver;
 
+	// driver object created in base class using everywhere
 	public LoginPage(WebDriver rdriver)
 	{
 		ldriver = rdriver;

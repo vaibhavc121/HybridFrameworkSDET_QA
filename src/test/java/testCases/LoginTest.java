@@ -12,7 +12,7 @@ public class LoginTest extends BaseClass
 	public void login()
 	{
 
-		LoginPage pg = new LoginPage(driver);
+		LoginPage pg = new LoginPage(driver); // driver object created in base class using everywhere
 
 		// driver.get(baseurl);
 		pg.setUname(username);
